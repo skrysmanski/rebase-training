@@ -1,6 +1,6 @@
 # Rebase Training Repo
 
-This Git repository give you an example where you can train/experiment with Git's rebasing feature.
+This Git repository gives you an example where you can train/experiment with Git's rebasing feature.
 
 You can train two things here:
 
