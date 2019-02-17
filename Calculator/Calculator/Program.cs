@@ -31,6 +31,10 @@ namespace Calculator
                     result = RunAdd(operand1, operand2);
                     break;
 
+                case Operator.Multiply:
+                    result = RunMultiply(operand1, operand2);
+                    break;
+
                 default:
                     Console.WriteLine();
                     Console.WriteLine($"ERROR: Operator '{@operator}' is not yet implemented.");
@@ -45,6 +49,12 @@ namespace Calculator
         private static decimal RunAdd(decimal operand1, decimal operand2)
         {
             return operand1 + operand2;
+        }
+
+        [Pure]
+        private static decimal RunMultiply(decimal operand1, decimal operand2)
+        {
+            return operand1 * operand2;
         }
 
         [Pure]
